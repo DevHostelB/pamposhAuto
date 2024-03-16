@@ -39,7 +39,7 @@ const Navbar = () => {
         <Box ml={{xs: 2.5, lg: 0}} sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
           <Box sx={{display: 'flex'}}>
             <Image alt="img" src={img2} width={50}/>
-            <Typography mt={1} ml={2} variant="h4" component="h1" sx={{fontSize: {xs: '22px', lg: '30px'}}}>Safe Auto Part</Typography>
+            <Typography mt={1} ml={2} variant="h4" component="h1" sx={{fontSize: {xs: '22px', lg: '30px'}}}>Pamposh Auto</Typography>
           </Box>
           <Box sx={{display: {xs:'block', lg: 'none'}}}>
             <Button onClick={handleClick}><MenuIcon/></Button>
